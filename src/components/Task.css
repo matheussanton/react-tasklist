@@ -13,6 +13,12 @@
     cursor: pointer;
 }
 
+.buttons-container{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .remove-task-button, .see-task-details-button {
     background-color: #444;
     border: none;
@@ -20,4 +26,6 @@
     color: chartreuse;
 
     cursor: pointer;
+
+    margin: 0 5px;
 }
